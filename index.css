@@ -1,0 +1,20 @@
+#landing {
+    background-image: url(assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    font-size: smaller;
+    color: white;
+  }
+  #welcome {
+    padding-top: 150px;
+  }
+  
+  #logo {
+    padding-bottom: 20px;
+  }
+  
+  #mouse {
+    padding-top: 130px;
+  }
