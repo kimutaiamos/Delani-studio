@@ -21,3 +21,8 @@
   #about{
       text-align: center;
   }
+  #about-image {
+    text-align: center;
+    color: white;
+    background-image: url(../assets/backgrounds/s_image.jpg);
+  }
