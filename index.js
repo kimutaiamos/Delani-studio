@@ -8,3 +8,8 @@ $(document).ready(function(){
         $('#dev-dev').toggle(100)
     })
 });
+$(document).ready(function(){
+    $('.manage').click(function(){
+        $('#manage-managet').toggle(100)
+    })
+});
