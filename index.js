@@ -3,3 +3,8 @@ $(document).ready(function(){
         $('.design-dec').toggle(100)
     })
 });
+$(document).ready(function(){
+    $('.dev').click(function(){
+        $('#dev-dev').toggle(100)
+    })
+});
