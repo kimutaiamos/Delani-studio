@@ -1,3 +1,4 @@
+/*style the landing section*/
 #landing {
     background-image: url(assets/backgrounds/h_img.jpg);
     background-size: cover;
@@ -21,6 +22,7 @@
   #about{
       text-align: center;
   }
+  /*style the about image*/
   #about-image {
     text-align: center;
     color: white;
@@ -43,6 +45,7 @@ font-size: 16px;
       text-align: center;
       padding-top: 40px;
   }
+  /*style the landing section*/
   #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     color:red;
     width: 100%;
@@ -59,7 +62,7 @@ font-size: 16px;
     border:10px solid white;
     text-align: center;
   }
-
+/*style the column section*/
 .col-md-3{
     position: relative;
   }
@@ -95,9 +98,16 @@ font-size: 16px;
     color: white;
     opacity: 1;
   }
+  /*style the form section*/
   .form-control{
     background-color:transparent;
   }
   #comment{
     margin-top: 10px;
+  }
+  .H6{
+      text-align: center;
+  }
+  .P{
+      text-align: center;
   }
