@@ -63,4 +63,41 @@ font-size: 16px;
 .col-md-3{
     position: relative;
   }
+  .contact{
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin-top:50px;
+    text-align: center;
+    color:white;
+  }
+  #name1#name2{
+    width: 30%;
+    margin-left: 18%;
+    margin-right: 30px;
+  }
+  #comment{
+    margin-top:0;
+  }
   
+  form{
+    width:60%;
+    margin: auto;
+    background-color: transparent;
+  }
+  #name, #email, #comment{
+    color: white;
+    background-color: transparent;
+  }
+  .form-control::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .form-control{
+    background-color:transparent;
+  }
+  #comment{
+    margin-top: 10px;
+  }
