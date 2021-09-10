@@ -8,7 +8,7 @@
     color: white;
   }
   #welcome {
-    padding-top: 150px;
+    padding-top: 160px;
   }
   
   #logo {
@@ -16,7 +16,7 @@
   }
   
   #mouse {
-    padding-top: 130px;
+    padding-top: 140px;
   }
   #about{
       text-align: center;
@@ -27,5 +27,18 @@
     background-image: url(../assets/backgrounds/s_image.jpg);
   }
   #what-we-do{
+      text-align: center;
+  }
+  #design-dec{
+      display: none;
+  }
+  #develo-pment{
+      display: none;
+  }
+  #manage-ment{
+display: none;
+font-size: 16px;
+  }
+  #portfolio{
       text-align: center;
   }
