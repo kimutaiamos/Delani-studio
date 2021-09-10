@@ -29,7 +29,7 @@
   #what-we-do{
       text-align: center;
   }
-  #design-dec{
+  .design-dec{
       display: none;
   }
   #develo-pment{
@@ -41,4 +41,26 @@ font-size: 16px;
   }
   #portfolio{
       text-align: center;
+      padding-top: 40px;
   }
+  #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    color:red;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(250, 245, 245, 0.456);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding:20px;
+    border:10px solid white;
+    text-align: center;
+  }
+
+.col-md-3{
+    position: relative;
+  }
+  
