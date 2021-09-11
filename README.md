@@ -2,9 +2,9 @@
 # Delani-studio
 it is about a basic webpage  where the user get to download musics,videos
 ## Author
-AMOS KIPROTICH
+AMOS KIMUTAI
 ## Description
-Delani studio is a website for programmers that has an about us section, what to do, portfolio and even the contact section.
+it is about a basic webpage where programmers and users get to download musics,videos
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
