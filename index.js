@@ -33,6 +33,20 @@ $(document).ready(function(){
       $("#overlay1").hide();
     });
   });
+  $(document).ready(function(){
+    $("#work5").mouseover(function(){
+      $("#overlay5").show();
+    }).mouseout(function(){
+      $("#overlay5").hide();
+    });
+  });
+  $(document).ready(function(){
+    $("#work6").mouseover(function(){
+      $("#overlay6").show();
+    }).mouseout(function(){
+      $("#overlay6").hide();
+    });
+  });
 
   $(document).ready(function(){
     $("form#formsubmit").submit(function(event){
