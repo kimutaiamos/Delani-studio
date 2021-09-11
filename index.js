@@ -25,6 +25,28 @@ function verify(){
         alert('input valid email');
         return false
     }
-alert('welcome '+name)
-alert('email is noted')
 }
+$(document).ready(function(){
+    $("#work4").mouseover(function(){
+      $("#overlay1").show();
+    }).mouseout(function(){
+      $("#overlay1").hide();
+    });
+  });
+
+  $(document).ready(function(){
+    $("form#formsubmit").submit(function(event){
+       event.preventDefault();
+      var name = $("input#name1").val();
+      var email = $("input#name2").val();
+      var message = $("textarea#comment").val();
+      if ($("input#name1").val() && $("input#name2").val()){
+        alert (name + ",We have received your message. Thanks for your honest feedback.:)");
+      }
+      else {
+        alert("Please enter a valid email and name!");
+      }
+      
+    });
+  
+  });
