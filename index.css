@@ -1,6 +1,6 @@
 /*style the landing section*/
 #landing {
-    background-image: url(assets/backgrounds/h_img.jpg);
+    background-image: url('assets/backgrounds/h_img.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -27,7 +27,7 @@
   #about-image {
     text-align: center;
     color: white;
-    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-image: url('assets/backgrounds/s_image.jpg');
     position: relative;
     padding-top: 0%;
     padding-bottom: 30vh;
