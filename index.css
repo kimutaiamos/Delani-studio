@@ -26,7 +26,7 @@
   /*style the about image*/
   #about-image {
     text-align: center;
-    color: white;
+    color: black;
     background-image: url(../assets/backgrounds/s_image.jpg);
     position: relative;
     padding-top: 0%;
