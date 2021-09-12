@@ -24,6 +24,6 @@ To access this project on your local files, you can clone it using these steps
 6. Bootstrap
 7. jQuery
 ### Live Site
-View [live])
+View [live](https://kimutaiamos.github.io/akan-Name-Calculator/)
 ### Licence
 This project is under the  [MIT](licence) licence.
