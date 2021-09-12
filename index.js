@@ -1,13 +1,16 @@
+//added mouseclick design
 $(document).ready(function(){
     $('.des').click(function(){
-        $('.design-dec').toggle(100)
+        $('#design-dec').toggle(100)
     })
 });
+// added mouseclickdevelopment
 $(document).ready(function(){
     $('.dev').click(function(){
         $('#dev-dev').toggle(100)
     })
 });
+//added mouseclick management
 $(document).ready(function(){
     $('.manage').click(function(){
         $('#manage-managet').toggle(100)
@@ -26,63 +29,72 @@ function verify(){
         return false
     }
 }
+//overlay work1
 $(document).ready(function(){
     $("#work4").mouseover(function(){
       $("#overlay1").show();
-    }).mouseout(function(){
+    }).mouseleave(function(){
       $("#overlay1").hide();
     });
   });
-  $(document).ready(function(){
-    $("#work5").mouseover(function(){
-      $("#overlay5").show();
-    }).mouseout(function(){
-      $("#overlay5").hide();
-    });
-  });
-  $(document).ready(function(){
-    $("#work6").mouseover(function(){
-      $("#overlay6").show();
-    }).mouseout(function(){
-      $("#overlay6").hide();
-    });
-  });
-  $(document).ready(function(){
-    $("#work7").mouseover(function(){
-      $("#overlay7").show();
-    }).mouseout(function(){
-      $("#overlay7").hide();
-    });
-  });
-  $(document).ready(function(){
+   //overlay work2
+   $(document).ready(function(){
     $("#work2").mouseover(function(){
       $("#overlay2").show();
-    }).mouseout(function(){
+    }).mouseleave(function(){
       $("#overlay2").hide();
     });
   });
-  $(document).ready(function(){
+   //overlay work3
+   $(document).ready(function(){
     $("#work3").mouseover(function(){
       $("#overlay3").show();
-    }).mouseout(function(){
+    }).mouseleave(function(){
       $("#overlay3").hide();
     });
   });
-  $(document).ready(function(){
+   //overlay work4
+   $(document).ready(function(){
     $("#work1").mouseover(function(){
       $("#overlay4").show();
-    }).mouseout(function(){
+    }).mouseleave(function(){
       $("#overlay4").hide();
     });
   });
+  //overlay work5
+  $(document).ready(function(){
+    $("#work5").mouseover(function(){
+      $("#overlay5").show();
+    }).mouseleave(function(){
+      $("#overlay5").hide();
+    });
+  });
+  //overlay work6
+  $(document).ready(function(){
+    $("#work6").mouseover(function(){
+      $("#overlay6").show();
+    }).mouseleave(function(){
+      $("#overlay6").hide();
+    });
+  });
+  //overlay work7
+  $(document).ready(function(){
+    $("#work7").mouseover(function(){
+      $("#overlay7").show();
+    }).mouseleave(function(){
+      $("#overlay7").hide();
+    });
+  });
+  //overlay work8
   $(document).ready(function(){
     $("#work8").mouseover(function(){
       $("#overlay8").show();
-    }).mouseout(function(){
+    }).mouseleave(function(){
       $("#overlay8").hide();
     });
   });
-
+// form input submission.this will display the pop up message which reads,
+//we have received your message.thanks for your hones feedback.
   $(document).ready(function(){
     $("form#formsubmit").submit(function(event){
        event.preventDefault();

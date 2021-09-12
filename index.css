@@ -18,6 +18,7 @@
   
   #mouse {
     padding-top: 140px;
+    padding-bottom: 1%;
   }
   #about{
       text-align: center;
@@ -27,17 +28,22 @@
     text-align: center;
     color: white;
     background-image: url(../assets/backgrounds/s_image.jpg);
+    position: relative;
+    padding-top: 0%;
+    padding-bottom: 30vh;
   }
   #what-we-do{
       text-align: center;
   }
-  .design-dec{
+#design-dec{
       display: none;
+      font-size: 16px;
   }
-  #develo-pment{
+#dev-dev{
       display: none;
+      font-size: 16px;
   }
-  #manage-ment{
+#manage-managet{
 display: none;
 font-size: 16px;
   }
@@ -47,7 +53,7 @@ font-size: 16px;
   }
   /*style the overlay section*/
   #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-    color:red;
+    color:green;
     width: 100%;
     height: 100%;
     background-color:rgba(250, 245, 245, 0.456);
@@ -59,7 +65,7 @@ font-size: 16px;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     padding:20px;
-    border:10px solid white;
+    border: 20px solid grey;
     text-align: center;
   }
 /*style the column section*/
@@ -67,7 +73,7 @@ font-size: 16px;
     position: relative;
   }
   .contact{
-    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-image: url('assets/backgrounds/c_image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,9 +111,18 @@ font-size: 16px;
   #comment{
     margin-top: 10px;
   }
-  .h6{
+  h6{
       text-align: center;
   }
-  .p{
+  p{
       text-align: center;
+  }
+.footer{
+    text-align: center;
+    margin-top:20px;
+    font-size: 10px;
+  }
+  
+.footer img{
+    padding:5px;
   }
